@@ -9,3 +9,10 @@ UserSettings/
 .vsconfig
 *.csproj
 *.sln
+!Assets/**/*.cs
+!Assets/**/*.unity
+!Assets/**/*.prefab
+!Assets/**/*.mat
+!Assets/**/*.meta
+!ProjectSettings/**
+!Packages/**
