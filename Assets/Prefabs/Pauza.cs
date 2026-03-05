@@ -9,7 +9,7 @@ namespace Prefabs
 
         void Update()
         {
-            if(SceneManager.GetActiveScene().name == "Game"){
+            if(SceneManager.GetActiveScene().name == "Game" || SceneManager.GetActiveScene().name == "Game2"){
                 if (Input.GetKeyDown(KeyCode.Escape))
                 {
                     if (isPaused)

@@ -1,10 +1,10 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class mainmenu : MonoBehaviour
+public class Levels2 : MonoBehaviour
 {
     public void Playgame()
     {
-        SceneManager.LoadSceneAsync(4);
+        SceneManager.LoadSceneAsync(5);
     }
 }
